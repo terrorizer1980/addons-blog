@@ -10,7 +10,10 @@ const fetch = require('node-fetch');
 const fs = require('fs-extra');
 const isProduction = process.env.ELEVENTY_ENV;
 
-const inputFiles = ['src/assets/js/new-tab-links.js'];
+const inputFiles = [
+  'src/assets/js/new-tab-links.js',
+  'src/assets/js/addon-cards.js',
+];
 
 const outputFile = './build/assets/js/bundle.js';
 
